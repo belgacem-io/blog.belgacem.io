@@ -18,6 +18,7 @@ export type TPost = {
   createdTime: string
   fullWidth: boolean
   thumbnail?: string
+  icon?: string
 }
 
 export type TPosts = TPost[]
