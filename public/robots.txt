@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://blog.belgacem.io
+
+# Sitemaps
+Sitemap: https://blog.belgacem.io/sitemap.xml
