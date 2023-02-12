@@ -1,0 +1,16 @@
+FROM node:16-alpine
+
+ENV PORT 3000
+ENV NOTION_PAGE_ID "fdec150fd9a44b81bf79a19128f15ee4"
+WORKDIR /app
+
+# Install dependencies only when needed
+RUN apk add --no-cache libc6-compat bash
+
+# Copy app
+COPY . /app
+
+RUN yarn install --frozen-lockfile
+RUN yarn build
+
+EXPOSE 3000
