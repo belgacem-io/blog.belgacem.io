@@ -11,13 +11,18 @@ This a customized version of [morethan-log blog](https://github.com/morethanmin/
    ```sh
     ./npmd --insall
    ```
-   
-3. Build your project
+
+3. Install your project dependencies
+   ```sh
+    npmd install
+   ```
+      
+4. Build your project
    ```sh
     npmd run build
    ```
 
-4. Start your server
+5. Start your server
    ```sh
     npmd run start
    ```
