@@ -15,13 +15,13 @@ const PostCard: React.FC<Props> = ({ post }) => {
       <a>
         <article
           key={post.id}
-          className="h-60 flex flex-col md:flex-row overflow-hidden mb-6 md:mb-8 rounded-2xl bg-white dark:bg-zinc-700 hover:shadow-lg transition-shadow "
+          className="flex flex-col md:flex-row overflow-hidden mb-6 md:mb-8 rounded-2xl bg-white dark:bg-zinc-700 hover:shadow-lg transition-shadow "
         >
-          {post.icon && (
+          {post.thumbnail && (
             <div className="relative w-full bg-gray-200 dark:bg-zinc-700">
               <Image
-                src={post.icon}
-                className="w-full object-cover md:h-full md:w-48"
+                src={post.thumbnail}
+                className="w-full object-contain md:h-full md:w-48"
                 alt={post.title}
               />
             </div>
@@ -41,7 +41,7 @@ const PostCard: React.FC<Props> = ({ post }) => {
               </div>
             </div>
             <main className="mb-4">
-              <p className="hidden md:block leading-8 text-gray-700 dark:text-gray-300">
+              <p className="hidden md:block leading-6 text-gray-700 dark:text-gray-300">
                 {post.summary}
               </p>
             </main>
