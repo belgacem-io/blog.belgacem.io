@@ -12,19 +12,19 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `blog.belgacem.io`,
+      name: `hassene.belgacem.io`,
       href: 'https://github.com/belgacem-io/blog.github.io'
     }
   ],
   // blog setting (required)
   blog: {
-    title: 'blog.belgacem.io',
+    title: 'hassene.belgacem.io',
     description: 'welcome to my blog!',
     theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: 'https://blog.belgacem.io',
+  link: 'https://hassene.belgacem.io',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   seo: {
@@ -52,7 +52,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'belgacem-io/blog.belgacem.io',
+      repo: 'belgacem-io/hassene.belgacem.io',
       'issue-term': 'og:title',
       label: '💬 Utterances',
     }
