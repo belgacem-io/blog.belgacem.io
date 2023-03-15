@@ -18,7 +18,7 @@ const PostCard: React.FC<Props> = ({ post }) => {
           className="flex flex-col md:flex-row overflow-hidden mb-4 rounded-2xl bg-white dark:bg-zinc-700 hover:shadow-lg transition-shadow "
         >
           {post.thumbnail && (
-            <div className="relative w-full md:w-96 bg-gray-200 dark:bg-zinc-700">
+            <div className="relative w-full md:w-48 bg-gray-200 dark:bg-zinc-700">
               <Image
                 src={post.thumbnail}
                 className="w-full object-fill md:h-full md:w-48"
