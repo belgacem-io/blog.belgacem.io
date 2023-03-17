@@ -49,16 +49,6 @@ const PostHeader: React.FC<Props> = ({ data }) => {
               </div>
             )}
           </div>
-          {data.thumbnail && (
-            <div className="relative w-full pb-[66%] lg:pb-[50%] bg-gray-200 dark:bg-zinc-700 mb-7 rounded-3xl overflow-hidden">
-              <Image
-                src={data.thumbnail}
-                className="object-fill"
-                layout="fill"
-                alt={data.title}
-              />
-            </div>
-          )}
         </nav>
       )}
     </>
