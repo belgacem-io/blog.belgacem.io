@@ -28,7 +28,7 @@ const CONFIG = {
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   seo: {
-    keywords: ['Blog', 'Hassene BELGACEM','Cloud','Cyber security'],
+    keywords: ['Blog', 'Hassene BELGACEM'],
   },
 
   // notion configuration (required)
