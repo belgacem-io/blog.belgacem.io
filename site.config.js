@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: 'hassene.belgacem.io',
+    title: 'Hassene BELGACEM',
     description: 'welcome to my blog!',
     theme: 'light' // ['light', 'dark', 'auto']
   },
@@ -28,7 +28,7 @@ const CONFIG = {
   since: 2022, // If leave this empty, current year will be used.
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   seo: {
-    keywords: ['Blog', 'Hassene BELGACEM'],
+    keywords: ['Blog', 'Hassene BELGACEM','Cloud','Cyber security'],
   },
 
   // notion configuration (required)
