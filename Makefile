@@ -5,7 +5,7 @@ logs:
 	docker compose logs
 
 install:
-	docker compose exec -w /app dev bash -c "yarn install --frozen-lockfile"
+	docker compose exec -w /app dev bash -c "yarn install"
 
 build:
 	docker compose exec -w /app dev bash -c "yarn build"
