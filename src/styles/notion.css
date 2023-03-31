@@ -50,6 +50,7 @@ svg + .notion-page-title-text {
 
 .notion-code > code {
   background-color: transparent;
+  text-shadow: 0 0 #fff;
   border-width: 0;
   border-radius: 0;
   padding: 0;
